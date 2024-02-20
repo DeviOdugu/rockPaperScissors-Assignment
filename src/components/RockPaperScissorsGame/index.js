@@ -133,7 +133,6 @@ class RockPaperScissorsGame extends Component {
                 <ScissorImage
                   src={choicesList[1].imageUrl}
                   alt={choicesList[1].id}
-                  onClick={() => this.onClickImage(choicesList[1].id)}
                 />
               </Button>
             </Container1>
